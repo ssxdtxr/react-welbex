@@ -1,0 +1,94 @@
+.mainInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+  svg {
+    position: relative;
+  }
+  .leftSide {
+    .title {
+      font-size: 48px;
+      width: 362px;
+
+      span {
+        font-weight: 900;
+        background-image: linear-gradient(to right, #FCB045, #FF3F78);;
+        color: transparent;
+        background-clip: text;
+      }
+
+    }
+
+    p {
+      width: 254px;
+      color: #E4E5EA;
+      font-size: 18px;
+    }
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 18px;
+    //width: 350px;
+    .free {
+      margin-bottom: 40px;
+      text-align: end;
+
+      div {
+        display: flex;
+        gap: 3px;
+      }
+
+      span {
+        display: flex;
+        text-align: end;
+
+        font-weight: 700;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #FCB045, #FD1D1D);;
+        color: transparent;
+        background-clip: text;
+      }
+    }
+
+    .presents {
+      display: grid;
+      grid-template-columns: repeat(2, 135px);
+      gap: 30px;
+      margin-bottom: 90px;
+      .section {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+        span {
+          text-transform: uppercase;
+          margin-bottom: 6px;
+        }
+
+        p {
+          display: flex;
+          align-items: end;
+          font-size: 16px;
+          font-weight: 400;
+          color: #E4E5EA;
+          text-align: right;
+        }
+      }
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 150px;
+      button {
+        cursor: pointer;
+        padding: 21px 35px;
+        background-color: #4077F3;
+        color: #E4E5EA;
+      }
+    }
+
+  }
+}

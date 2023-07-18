@@ -1,0 +1,65 @@
+.footer {
+  padding-top: 55px;
+  .topFooter {
+    display: flex;
+    justify-content: space-between;
+    .mainInfo {
+      display: flex;
+      gap: 98px;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+
+        span {
+          font-weight: 700;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+          color: #656566;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+
+      .menu {
+        display: flex;
+        gap: 52px;
+      }
+    }
+
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      text-align: end;
+      gap: 20px;
+
+      .feedback {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+      }
+
+      span {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #656566;
+      }
+    }
+  }
+
+  .confid {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #E4E5EA;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: end;
+  }
+}
